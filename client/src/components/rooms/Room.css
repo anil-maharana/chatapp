@@ -1,0 +1,91 @@
+.room_dashboard {
+  display: flex;
+  height: 90vh;
+}
+
+.notSelectedRoomDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0.75;
+  flex-basis: 75%;
+  background: #343a40;
+  color: white;
+}
+.rooms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0.2;
+  flex-basis: 20%;
+}
+
+.rooms_area {
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+  flex-basis: 80%;
+}
+
+.rooms__heading {
+  text-align: center;
+  padding: 8px 0px;
+  /* background: #036055; */
+  background: #1976d2;
+  color: white;
+}
+.rooms__heading > h1 {
+  font-weight: 545;
+}
+
+.rooms__list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Rooms Header */
+.roomsAreadHeader {
+  display: flex;
+  /* background: #036055; */
+  background: #1976d2;
+  padding: 8px 0px;
+  border-left: 1px solid rgba(220, 220, 220, 0.096);
+}
+.roomsAreadHeader_users {
+  margin-left: 16px;
+  padding: 12px 8px;
+}
+.roomsAreadHeader__left {
+  display: flex;
+  align-items: center;
+  padding: 0.98em 1px;
+}
+
+.roomsAreadHeader__left > .MuiSvgIcon-root {
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 2em;
+}
+
+.roomsAreadHeader__left > h2 {
+  font-weight: 548;
+  color: white;
+  margin-left: 10px;
+}
+
+.roomsAreadHeader__right {
+  display: flex;
+  align-items: center;
+  padding: 0.98em 1px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.roomsAreadHeader__right > .MuiSvgIcon-root {
+  margin-left: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 2em;
+}

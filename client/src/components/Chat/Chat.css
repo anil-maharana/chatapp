@@ -1,0 +1,113 @@
+.loadingMsgDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* flex: 1;
+  flex-basis: 100%; */
+  /* background: #343a40;
+  color: white; */
+}
+.chatarea {
+  height: 85vh;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #e5ddd560;
+}
+.chatarea__container {
+  height: 100%;
+  width: 100%;
+  opacity: 0.06;
+  z-index: -100;
+  position: absolute;
+  background-image: url("https://web.whatsapp.com/img/bg-chat-tile-light_04fcacde539c58cca6745483d4858c52.png");
+}
+
+.chatarea__messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f15e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: rgba(136, 136, 136, 0.3);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(116, 115, 115, 0.7);
+}
+
+/* Chat Input */
+.chatinput {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chatinput__form {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+}
+.chatinput__form .MuiSvgIcon-root {
+  cursor: pointer;
+  font-size: 2em;
+  padding: 0px 5px;
+  color: gray;
+}
+.chatinput__form > form {
+  flex: 1;
+}
+.chatinput__form > form > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  width: 100%;
+}
+.chatinput__formIcons {
+  display: flex;
+  align-items: center;
+}
+.chatinput__icons {
+  /* background: #036055; //#1976d2 */
+  background: #1976d2;
+  border-radius: 50%;
+  margin-left: 10px;
+  display: flex;
+}
+
+.chatinput__icons > .MuiSvgIcon-root {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 2em;
+  color: white;
+}
+
+.chatinput__form > .emoji-picker-react {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
