@@ -1,0 +1,29 @@
+.citryleditor {
+  margin: 10px auto;
+  max-width: 936px;
+}
+
+.draft-editor-wrapper {
+  border: 1px solid #ccc;
+}
+
+.public-DraftEditorPlaceholder-inner {
+  position: absolute;
+  color: #ccc;
+  pointer-events: none;
+}
+
+div.DraftEditor-root {
+  border: 1px solid #ccc;
+  height: 50px;
+  overflow-y: auto;
+  text-align: left;
+}
+div.DraftEditor-editorContainer,
+div.public-DraftEditor-content {
+  height: 100%;
+  font-size: medium;
+}
+.inline-style-options {
+  text-align: left;
+}

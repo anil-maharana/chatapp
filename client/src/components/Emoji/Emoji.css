@@ -1,0 +1,15 @@
+.emojiButton {
+    background: #fbfbfb;
+    color: #888;
+    font-size: 18px;
+    border: 0;
+    padding-top: 5px;
+    vertical-align: center;
+    height: 34px;
+    width: 36px;
+  }
+  
+  .emojiButton:hover,
+  .emojiButton:focus {
+    background: #f3f3f3;
+  }
